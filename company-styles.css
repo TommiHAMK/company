@@ -1,0 +1,78 @@
+body 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px; /* rem */
+    color: #1c2325;
+}
+
+h1 
+{
+    background-color: #1c2325;
+    color: #fff;
+    /*
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    */
+    padding: 8px 10px 8px 10px;
+}
+
+footer
+{
+    background-color: #ebebeb;
+    padding: 8px 10px 8px 10px;
+    font-size: 12px;
+    margin-top: 48px;
+    border-top: 10px solid #bbbbbb;
+}
+
+nav li
+{
+    display: inline;
+    margin-right: 16px;
+}   
+
+nav ul
+{
+    padding-left: 0px;
+}
+
+nav a, nav a:visited, nav a:active 
+{
+    text-decoration: none;
+    color: #1c2325;
+    text-transform: uppercase;
+}
+
+nav a:hover 
+{
+    background-color: #ebebeb;
+}
+
+a, a:visited, a:active {
+    color: #1c2325;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container 
+{
+    width: 800px;
+    /* centers the layout */
+    /* basically left and right margins are set to auto */
+    margin: 10px auto 0px auto;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 380px;
+    height: auto;
+    margin-bottom: 6px;
+}
+

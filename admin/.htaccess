@@ -1,0 +1,4 @@
+AuthName "Ylläpito"
+AuthType Basic
+AuthUserFile /home/tsa/.htpasswd
+Require valid-user
